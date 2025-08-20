@@ -1,0 +1,41 @@
+
+apt update && upgrade -y 
+pkg install git python mpv figlet -y
+pip install lolcat
+git clone https://github.com/robyivanov/qurxin_ua
+cd qurxin_ua
+chmod +x *
+sh install.sh
+exit
+
+apt update && upgrade -y && apt install git -y && 
+pkg install mpv figlet python && 
+pip install lolcat && 
+git clone https://github.com/robyivanov/
+qurxin_ua && cd qurxin_ua && 
+chmod +x * && 
+./install.sh
+
+
+
+
+
+
+
+Created By Yahye Abdirahman                                   ----------------------------
+
+
+ ██████  ██    ██ ██████  ██   ██ ██ ███    ██ 
+██    ██ ██    ██ ██   ██  ██ ██  ██ ████   ██ 
+██    ██ ██    ██ ██████    ███   ██ ██ ██  ██ 
+██ ▄▄ ██ ██    ██ ██   ██  ██ ██  ██ ██  ██ ██ 
+ ██████   ██████  ██   ██ ██   ██ ██ ██   ████ 
+    ▀▀ 
+The program figlet is not installed. Install it by executing:
+ pkg install figlet
+┌─[07:56:16]─────[root]───[1]
+|
+└─[~]────►pkg install figlet
+No mirror or mirror group selected. You might want to select one by running 'termux-change-repo'
+Checking availability of current mirror:
+[*] https://mirror.csclub.uwaterloo.ca/termux/termux-main: ok
